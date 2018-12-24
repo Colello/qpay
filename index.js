@@ -6,9 +6,6 @@ app.listen(port, function(){
     console.log("Server running at http://localhost:%d", port);
 });
 
-app.get('/', function(req, resp){
-    resp.send('Hello World');
-});
 
 
 
